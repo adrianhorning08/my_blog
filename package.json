@@ -1,13 +1,15 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "adrian-horning-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A personal blog of Adrian Horning",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Adrian Horning <m.adrian.horning@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^1.0.2",
+    "add": "^2.0.6",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-feed": "^2.3.29",
@@ -18,14 +20,16 @@
     "gatsby-plugin-sharp": "^2.4.13",
     "gatsby-plugin-typography": "^2.3.25",
     "gatsby-remark-copy-linked-files": "^2.1.40",
+    "gatsby-remark-external-links": "0.0.4",
+    "gatsby-remark-highlight-code": "^1.2.0",
     "gatsby-remark-images": "^3.1.50",
-    "gatsby-remark-prismjs": "^3.3.36",
+    "gatsby-remark-prismjs": "^3.4.1",
     "gatsby-remark-responsive-iframe": "^2.2.34",
     "gatsby-remark-smartypants": "^2.1.23",
     "gatsby-source-filesystem": "^2.1.56",
-    "gatsby-transformer-remark": "^2.6.59",
+    "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.3.19",
-    "prismjs": "^1.19.0",
+    "prismjs": "^1.20.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
@@ -33,7 +37,9 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "eslint-config-react-app": "^5.2.1",
