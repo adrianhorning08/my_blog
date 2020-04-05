@@ -56,19 +56,23 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author.name}</strong> | {author.summary}
-        {` `}
-        <a
-          href={`https://twitter.com/${social.twitter}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Follow me on Twitter?
-          <span role="img" aria-label="please-emoji">🙏</span>
-          <span role="img" aria-label="shrug-emoji">🤷‍♂️</span>
-        </a>
-      </p>
+      <div>
+        <p style={{ marginBottom: 0 }}>
+          {author.summary}
+        </p>
+        <p>
+          <a
+            href={`https://twitter.com/${social.twitter}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Follow me on Twitter?
+            <span role="img" aria-label="please-emoji">🙏</span>
+            <span role="img" aria-label="shrug-emoji">🤷‍♂️</span>
+          </a>
+        </p>
+
+      </div>
     </div>
   )
 }

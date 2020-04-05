@@ -3,7 +3,7 @@ module.exports = {
     title: `Adrian Horning Blog`,
     author: {
       name: `Adrian Horning`,
-      summary: `Software Developer, aspiring Real Estate Investor.`,
+      summary: `Person | Software Developer | Aspiring Real Estate Investor`,
     },
     description: `A really cool blog`,
     siteUrl: `https://adrianhorning.com`,
