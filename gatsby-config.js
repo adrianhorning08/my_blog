@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Adrian Horning Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Adrian Horning`,
+      summary: `Software Developer, aspiring Real Estate Investor.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A really cool blog`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `adrian_horning_`,
     },
   },
   plugins: [
