@@ -2,7 +2,6 @@
 title: What it's like to deliver for DoorDash
 date: 2017-02-26
 ---
-
 In a word: miserable.
 
 Well, on some days it’s not that bad. But some days it’s really stressful. That’s probably true of most service oriented jobs.
