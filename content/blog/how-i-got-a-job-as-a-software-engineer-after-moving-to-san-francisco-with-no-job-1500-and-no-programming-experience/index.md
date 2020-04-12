@@ -404,6 +404,7 @@ It was one hell of a ride. Great experience, learned a lot, but it was extremely
 
 If I had to do it over again, [this is probably what I would've done](https://www.adrianhorning.com/should-i-go-to-a-coding-bootcamp/).
 
+It's been a year and a half since I've been working, and I'm working at a new company in Utah, making $20k more, and my rent is only $500/month, so I'd say everything worked out pretty well 😁
 
 Very Special Thanks to these People for helping to make it happen - 
 * Ty Olatoye - The first person to help me in SF, and continued to help me. Motivated me to pursue software engineering. Helped me get a credit card. Can’t thank this man enough. 
