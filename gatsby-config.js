@@ -5,7 +5,7 @@ module.exports = {
       name: `Adrian Horning`,
       summary: `Person | Software Developer | Aspiring Real Estate Investor`,
     },
-    description: `A really cool blog`,
+    description: `Blog about software development, and other random thoughts`,
     siteUrl: `https://adrianhorning.com`,
     social: {
       twitter: `adrian_horning_`,

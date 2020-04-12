@@ -55,14 +55,33 @@ Here are some resources you can use to get to the same point I was at when I gra
 * Clearbit chrome extension - look up almost anyone's email
 
 ### What I Would Do If I Was You
-* Learn JavaScript
-* Learn React
-* Clone 1 or 2 of your favorite web apps
-* Use JavaScript, Node, React, and if you're really ambitious, GraphQL, which would look amazing to employers.
-* When looking for a job, don't just apply online.
-* Look up a few higher-ups on the company on LinkedIn, go to Clearbit and find their email.
-* Send them an email telling them what you can do and you'd love to chat with them.
+***Learn JavaScript***
+
+I would start off with Wes Bos's courses [Beginner JavaScript](https://beginnerjavascript.com/) and [JavaScript30](https://javascript30.com/). After doing those you will have a SOLID understanding of JavaScript. After that solid understanding, you should learn some frameworks, the most popular being React.
+
+***Learn React***
+
+Use Wes Bos's [React For Beginners](https://reactforbeginners.com/), then his [Advanced React](https://advancedreact.com/) course.
+
+***Clone 1 or 2 of your favorite web apps***
+
+Here are my recommendations regarding what to use. I recommend these because of their popularity.  
+Frontend = React  
+Backend = Node  
+API = REST (I would make sure you really know how REST API's work)  
+Database = MySQL/Postgres  
+Deployments = Heroku  
+
+Copying what someone else did for me was SUPER helpful. Especially for learning CSS. If you don't know exactly how to position an element, looking to see how some experts did it is super helpful.
+I cloned Asana. Trello, Discord, Slack, Twitter, or Facebook are also good. 
+
+***When looking for a job, don't just apply online***
+* Look up engineering managers or CTO's at the company you want to work for, go to [Clearbit](https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en) and find their email
+* Send them an email asking them to get coffee or chat on the phone
 * [Check out this video for a detailed explanation](https://www.facebook.com/meyster/videos/10211245064779073/?query=cold%20email)
+* If they don't email you back, follow up 5 times (leave a few days in between follow ups)
+* I had INCREDIBLE success with this method. Went from ~2% response rate to ~50% response rate.
+* Many times they'll just put you in touch with the Hiring Manager
 
 
 ### One Last Thing to Consider
