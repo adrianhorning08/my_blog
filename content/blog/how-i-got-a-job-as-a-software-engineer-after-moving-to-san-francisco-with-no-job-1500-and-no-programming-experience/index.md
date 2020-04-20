@@ -374,7 +374,9 @@ While living with them, they shared a [cold emailing strategy](https://www.faceb
 
 Instead of a ~2% response rate, I was getting a ~50% response rate!
 
-I got coffee meetings and interviews left and right, but, was still failing them all. But at least I was getting MANY more opportunities. 
+I got coffee meetings and interviews left and right, but, was still failing them all. But at least I was getting MANY more opportunities.
+
+Just to give you an example of one of the interviews, there is a language called [brainfuck](https://esolangs.org/wiki/Brainfuck), which, like you, I had never heard of before. My interviewer gave me some code and we walked through it together. Then he wanted me to do a task with brainfuck 🤦‍♂️ Like, some of these interviews are insane. 
 
 Eventually, though I reached out to a company in Utah, told them I recently moved to Salt Lake City (even though I was still in San Francisco) and was interested in what they were doing. 
 

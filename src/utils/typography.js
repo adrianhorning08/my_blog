@@ -1,17 +1,33 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+// ref -> https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-alton/src/index.js
+const typography = new Typography({
+  baseFontSize: "18px",
+  baseLineHeight: 1.45,
+  googleFonts: [
+    {
+      name: "Didact Gothic",
+      styles: ["200", "300", "400", "500", "600", "700", "800"],
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    {
+      name: "Montserrat",
+      styles: ["200", "300", "400", "500", "600", "700", "800"],
+    },
+  ],
+  headerFontFamily: ["Montserrat", "sans-serif"],
+  bodyFontFamily: ["Didact Gothic", "sans-serif"],
+  overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
+    "h1,h2,h3,h4,h5,h6": {
+      lineHeight: 1.1,
+    },
+    a: {
+      textDecoration: "none",
+    },
+    // "a:hover,a:active": {
+    //   color: options.bodyColor,
+    // },
+  }),
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
