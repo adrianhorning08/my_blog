@@ -10,6 +10,7 @@ a {
 
 blockquote {
     color: rgba(232, 230, 227, 0.84);
-    border-left: 0.32813rem solid rgba(232, 230, 227, 0.84);
-    font-size: 1.1rem;
+    border-left: 0.1rem solid rgba(232, 230, 227, 0.84);
+    padding-left: 10px;
+    font-style: italic;
 }
