@@ -1,5 +1,5 @@
 ---
-title: Looping in Java From a JavaScript Perspective
+title: Looping in Java
 date: 2020-04-27
 ---
 
