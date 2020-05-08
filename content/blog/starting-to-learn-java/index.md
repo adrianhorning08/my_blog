@@ -151,7 +151,7 @@ In JavaScript, semi-colon's are optional, but in Java they are required.
 
 In JavaScript, strings can be in double or single quotes, but in Java `String`s need to be in double quotes `String name = "Adrian";`, and `char`s need to be in single quotes `char letterA = 'a';`
 
-If you try and do `String name = 'Adrian';` Java will get mad.
+If you try and do `String name = 'Adrian';` Java will get mad. Single quotes are only used for `char`.
 
 ## Unlearn what you have learned about storing data
 ![yoda](../../assets/yoda.gif)
@@ -159,22 +159,15 @@ If you try and do `String name = 'Adrian';` Java will get mad.
 ### Objects
 Thinking about how to store key value pairs is much different in Java.
 
-You could use a HashMap, or DynaBean (sort of similar to JavaScript object), but you could also create a class.
-
-A `HashMap` is a pain if you have keys and values that are of different types, because you have to declare the types of the keys and values when you create the HashMap. For example, if you do:
-```java
-Map<String, String> person = new HashMap<String, String>();
-```
-Then each key and value must be Strings! So you couldn't add age, unless you added age as a String.
-
-A DynaBean, however, doesn't care what the types are.
+A `HashMap` is maybe the closest thing in Java to a JavaScript Object.
 
 ```java
-DynaBean person = new DynaBean();
-dynaBean.set("name", "Adrian");            
-dynaBean.set("age", 30);
+HashMap person = new HashMap();
+person.set("name", "Adrian");            
+person.set("age", 30);
 
-dynaBean.get("name"); // returns Adrian
+person.get("name"); // returns Object Adrian, NOT String Adrian
+// so person.get("name") == "Adrian" returns false
 ```
 
 Important to note, you have to use the `set` method to set the value of a key, and a `get` method to get the value. You can't just key into it like in JavaScript.
