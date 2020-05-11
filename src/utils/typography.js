@@ -2,7 +2,7 @@ import Typography from "typography"
 
 // ref -> https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-alton/src/index.js
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "24px",
   baseLineHeight: 1.45,
   googleFonts: [
     {
