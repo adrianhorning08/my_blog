@@ -10,6 +10,7 @@ const Layout = ({ location, title, children }) => {
   if (location.pathname === rootPath) {
     header = (
       <h1
+        className="site-title"
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),

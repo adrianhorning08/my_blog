@@ -1,6 +1,7 @@
 ---
 title: Optional chaining is here!
 date: 2020-05-09
+tags: ["javascript"]
 ---
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)

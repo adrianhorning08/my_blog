@@ -1,16 +1,16 @@
 body {
-    background-color: #121212;
-    /* color: rgb(220, 218, 212); */
-    color: rgba(232, 230, 227, 0.84);
+	background-color: #121212;
+	/* color: rgb(220, 218, 212); */
+	color: rgba(232, 230, 227, 0.84);
 }
 
 a {
-    color: #03DAC5;
+	color: #03DAC5;
 }
 
 blockquote {
-    color: rgba(232, 230, 227, 0.84);
-    border-left: 0.1rem solid rgba(232, 230, 227, 0.84);
-    padding-left: 10px;
-    font-style: italic;
+	color: rgba(232, 230, 227, 0.84);
+	border-left: 0.1rem solid rgba(232, 230, 227, 0.84);
+	padding-left: 10px;
+	font-style: italic;
 }

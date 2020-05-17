@@ -1,6 +1,7 @@
 ---
 title: Starting to Learn Java
 date: 2020-05-06
+tags: ["java", "js2java"]
 ---
 
 I am a frontend developer who is trying to learn Java.

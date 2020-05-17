@@ -1,5 +1,6 @@
 ---
 title: Where did my git aliases go?
+tags: ["git"]
 date: 2020-05-10
 ---
 

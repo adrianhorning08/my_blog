@@ -19,6 +19,9 @@ const BlogIndex = ({ data, location }) => {
         return (
           <article key={node.fields.slug}>
             <header>
+              {node.frontmatter?.tags?.map(tag => (
+                <Link key={tag} to={`/tags/${tag}`}>{`#${tag} `}</Link>
+              ))}
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -64,6 +67,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }

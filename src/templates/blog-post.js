@@ -11,6 +11,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
+  console.log(post);
+  
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -27,6 +29,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.title}
           </h1>
+          <span>
+            {post.frontmatter?.tags?.map(tag => (
+              <Link key={tag} to={`/tags/${tag}`}>{`#${tag} `}</Link>
+            ))}
+          </span>
           <p
             style={{
               ...scale(-1 / 5),
@@ -95,6 +102,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
