@@ -1,6 +1,7 @@
 ---
 title: I'm building Auto Apply
 date: 2020-05-26
+tags: ["autoApply"]
 ---
 
 Since injuring my knee, I continued trying to complete Auto Apply, an idea I've had for about a year and a half.
