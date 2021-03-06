@@ -26,6 +26,14 @@ And by these Manifest's I mean
 Now, you do this
 
 ```json
+"content_scripts": [
+  {
+    "matches": ["http://localhost/*"],
+    "all_frames": true,
+    "js": ["./content.js"],
+    "run_at": "document_end"
+  }
+],
 "content_security_policy": {
   "extension_pages": "script-src http://localhost;  object-src http://localhost;"
 }
