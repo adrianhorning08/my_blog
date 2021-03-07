@@ -110,3 +110,4 @@ References
 - https://developer.chrome.com/docs/extensions/mv3/manifest/sandbox/
 - https://csper.io/blog/csp-violates-the-content-security-policy-directive
 - https://content-security-policy.com/
+- https://www.youtube.com/watch?v=7Tu2j2pc87I
