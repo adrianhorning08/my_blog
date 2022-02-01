@@ -1,6 +1,6 @@
 ---
 title: How to set up elastic beanstalk worker with SQS queue and Node.js
-date: 2022-2-1
+date: 2022-02-01
 ---
 
 In case you have a long running process that you want to run later, or in the background, you can use the AWS Elastic Beanstalk Worker. Elastic Beanstalk I believe is just an EC2 server with other cool stuff like load balancers, auto scaling, etc. that come out of the box.
